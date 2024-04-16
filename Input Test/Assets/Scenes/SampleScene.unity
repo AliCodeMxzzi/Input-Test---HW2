@@ -135,9 +135,9 @@ GameObject:
   - component: {fileID: 154063724}
   - component: {fileID: 154063723}
   - component: {fileID: 154063722}
+  - component: {fileID: 154063728}
   - component: {fileID: 154063726}
   - component: {fileID: 154063727}
-  - component: {fileID: 154063728}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpHeight: 5
+  jumpHeight: 15
 --- !u!54 &154063727
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -516,7 +516,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464964622}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: abb291b5566456744a6a7cd064680ae6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
